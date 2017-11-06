@@ -1,4 +1,6 @@
-﻿using FormsPlugin.Iconize;
+﻿//I copied this code from https://github.com/rid00z/FreshMvvm
+
+using FormsPlugin.Iconize;
 using FreshMvvm;
 using System;
 using System.Threading.Tasks;

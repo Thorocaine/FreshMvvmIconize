@@ -2,6 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Jonathan Peel</Authors>
+    <Company />
+    <Description>Classes to allow me to use FreshMvvm Navigation and Iconize</Description>
+    <Copyright>2017 Jonathan Peel</Copyright>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/Thorocaine/FreshMvvmIconize/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/Thorocaine/FreshMvvmIconize</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Thorocaine/FreshMvvmIconize</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>

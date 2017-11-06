@@ -9,6 +9,8 @@
     <PackageLicenseUrl>https://raw.githubusercontent.com/Thorocaine/FreshMvvmIconize/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/Thorocaine/FreshMvvmIconize</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Thorocaine/FreshMvvmIconize</RepositoryUrl>
+    <Version>1.0.1</Version>
+    <PackageReleaseNotes>Modals to use FreshIconNavigationContainer</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>

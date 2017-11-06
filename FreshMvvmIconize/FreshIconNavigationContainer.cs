@@ -33,7 +33,7 @@ namespace FreshMvvmIconize
             return CreateContainerPage(page);
         }
 
-        protected virtual Page CreateContainerPage(Page page) => new NavigationPage(page);
+        protected virtual Page CreateContainerPage(Page page) => new FreshIconNavigationContainer(page);
 
         public virtual Task PushPage(Xamarin.Forms.Page page, FreshBasePageModel model, bool modal = false, bool animate = true)
             => (modal)

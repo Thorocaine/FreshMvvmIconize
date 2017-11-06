@@ -48,7 +48,7 @@ namespace FreshMvvmIconize
             return CreateContainerPage(page);
         }
 
-        protected virtual Page CreateContainerPage(Page page) => new NavigationPage(page);
+        protected virtual Page CreateContainerPage(Page page) => new FreshIconNavigationContainer(page);
 
         public Task PushPage(Page page, FreshBasePageModel model, bool modal = false, bool animate = true) => (modal)
                 ? CurrentPage.Navigation.PushModalAsync(CreateContainerPageSafe(page))
